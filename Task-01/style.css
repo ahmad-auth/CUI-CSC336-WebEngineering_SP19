@@ -1,0 +1,80 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 842px;
+    margin: 11px auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.section.head-section {
+    padding: 5px 20px;
+    border: 3px solid #000000;
+    display: inline-block;
+}
+
+.section.head-section .logo {
+    width: 16%;
+}
+
+.section.head-section .logo img {
+    max-width: 100%;
+} 
+
+.section.head-section .heading {
+    padding-top: 15px;
+    width: 71%;
+}
+
+.section.head-section .image-place {
+    width: 12%;
+    border:  1px solid #000000;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+.body-section {
+    border: 3px solid #000000;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.body-section table {
+    width: 100%;
+}
+.body-section table.v-top td {
+    width: 100%;
+    vertical-align: top;
+}
+
+.input-helper {
+    font-weight: normal;
+    font-size: 11px;
+}
