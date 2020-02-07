@@ -1,0 +1,14 @@
+section p a
+{
+    background-color: aqua;
+}
+
+#intro ~ section
+{
+    background-color: coral;
+}
+
+#intro + section
+{
+    background-color: chartreuse;
+}

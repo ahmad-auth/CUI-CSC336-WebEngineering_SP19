@@ -1,0 +1,16 @@
+.container, .container-fluid{
+	width: 80%;
+}
+
+section{
+	float: left;
+    width:65%;
+    background-color: darkgray;
+	padding: 1%;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	background-color: aliceblue;
+}

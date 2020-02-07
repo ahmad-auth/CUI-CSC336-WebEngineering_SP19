@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lab 13</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Part-1 -->
+    <h3>Task-1</h3>
+    <p id="taskOne" onmouseover="italicB(this)" onmouseout="regularB(this)">
+      This is a paragraph tag
+    </p>
+    <button onclick="setLarge()">Large</button>
+    <button onclick="setSmall()">Small</button>
+    <br /><br />
+
+    <!-- Part-2 -->
+    <h3>Task-2</h3>
+    <button onclick="addElement()">Add Element</button>
+    <button onclick="removeElement()">Remove Element</button>
+    <ul id="taskTwo">
+      An unordered list:
+    </ul>
+    <br /><br />
+
+    <!-- Part-3 -->
+    <h3>Task-3</h3>
+    <button onclick="alternatingElement()">Add Element</button>
+    <button onclick="alternateListColor()">Alternate Color</button>
+    <ul id="taskThree">
+      An alternating unordered list
+    </ul>
+    <br /><br />
+
+    <!-- Part-4 -->
+    <h3>Task-4</h3>
+    <form>
+      Name: <input type="text" id="name" /> <br />
+      Registration: <input type="text" id="registrationn" /> <br />
+      Semester: <input type="text" id="semester" /> <br />
+      <label><strong>Registered Courses</strong></label>
+      <button type="button" onclick="addCourse()">Add Course</button>
+      <div id="taskFour"></div>
+    </form>
+
+    <div></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
